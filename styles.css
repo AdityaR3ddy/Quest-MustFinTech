@@ -183,6 +183,7 @@ nav {
   cursor: pointer;
 }
 
+
 /* Table Styles */
 table {
   width: 100%;
@@ -295,6 +296,10 @@ table td {
   padding-left: 50px;
 }
 
+.hyperlink:hover{
+  color: darkred;
+  font-weight: bold;
+}
 .dropdown-container {
   grid-column: 9; /* Place dropdowns in columns 7, 8, and 9 */
   display: flex;
@@ -330,12 +335,14 @@ table td {
 
 .dropdown:hover .dropdown-content {
   display: block;
+  outline: 1px solid lightpink;
 }
 
 .dropdown-btn:hover {
   background-color: lightskyblue;
   font-weight: bold;
   border-radius: 15px;
+  outline: 1px solid lightpink;
 }
 
 
